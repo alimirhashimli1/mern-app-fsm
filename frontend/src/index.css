@@ -75,7 +75,8 @@ input {
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 20px;
-  width: 100%;
+  /* display: inline; */
+  width: 90%;
   border: 1px solid #ddd;
   border-radius: 4px;
   box-sizing: border-box;
@@ -99,4 +100,8 @@ div.error {
 }
 input.error {
   border: 1px solid var(--error);
+}
+
+.edit {
+  margin-top: 50px;
 }
