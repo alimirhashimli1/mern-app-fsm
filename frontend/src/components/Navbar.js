@@ -1,15 +1,19 @@
-import {Link} from "react-router-dom"
-
+import React from 'react'
+import { Link } from 'react-router-dom'
+import Home from '../pages/Home'
 
 const Navbar = () => {
   return (
-    <header>
-        <div className='container'>
-             <Link to="/">
-                <h1>Ateh Letics</h1>
-             </Link>
+    <div>
+        <div className="container">
+            <Link to="/">
+                <h1>Workout Buddy</h1>
+            </Link>
+            <Link to="/">
+                <h2>Home</h2>
+            </Link>
         </div>
-    </header>
+    </div>
   )
 }
 
